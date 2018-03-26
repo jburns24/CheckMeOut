@@ -38,5 +38,5 @@ void registerController::processOrder()
 }
 
 void registerController::update() {
-
+  screen.displayRunningTotal(*this->cart);
 }
